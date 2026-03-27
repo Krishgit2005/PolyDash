@@ -44,7 +44,7 @@ function App() {
           <Route path="/" element={
             <div className="home-hero">
               <h1>Welcome to PolyDash</h1>
-              <p>The ultimate MERN stack canvas runner game.</p>
+              <p>The ultimate canvas runner game.</p>
               <Link to="/game" className="cta-btn">Play Now</Link>
             </div>
           } />
