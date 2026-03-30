@@ -8,13 +8,9 @@
 
 body {
   font-family: 'Fredoka One', cursive, system-ui, sans-serif;
-  background-color: #0f172a;
-  color: #f8fafc;
-  /* Add global background to merge landing with game aesthetic */
-  background-image: url('/assets/game_background.png');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
   background-attachment: fixed;
+  color: #f8fafc;
 }
 
 .app-container {
@@ -31,11 +27,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2.5rem;
-  background-image: url('/assets/wood_texture.png');
-  background-size: cover;
-  background-position: center;
-  border-bottom: 6px solid #451a03;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+  background: linear-gradient(to right, #1e1b4b, #312e81);
+  border-bottom: 4px solid #4338ca;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   z-index: 100;
 }
 
@@ -148,12 +142,11 @@ body {
 .home-hero {
   text-align: center;
   margin-top: 6rem;
-  background-image: url('/assets/wood_texture.png');
-  background-size: cover;
+  background: linear-gradient(135deg, rgba(30,27,75,0.95), rgba(49,46,129,0.95));
+  border: 2px solid rgba(99,102,241,0.4);
   padding: 3rem 4rem;
   border-radius: 20px;
-  border: 6px solid #451a03;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.8), inset 0 0 20px rgba(0,0,0,0.6);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6), 0 0 40px rgba(99,102,241,0.2);
 }
 
 .home-hero h1 {
